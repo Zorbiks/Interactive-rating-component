@@ -56,7 +56,14 @@ p {
 	background-color: var(--black-700);
 }
 
-.card__ ul button {
+.card__ ul input[type=radio] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	height: 0;
+	visibility: hidden;
+}
+.card__ ul label {
 	width: 52px;
 	height: 52px;
 	color: var(--gray);
