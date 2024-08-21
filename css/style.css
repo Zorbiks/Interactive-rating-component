@@ -1,0 +1,72 @@
+/* Overpass Font Family */
+@font-face {
+  font-family: 'Overpass';
+  font-style: 400;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/overpass@latest/latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: 'Overpass';
+  font-style: bold;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/overpass@latest/latin-700-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+:root {
+	/*Colors*/
+	/*Primary*/
+	--orange: hsl(25, 97%, 53%);
+
+	/*Neutral*/
+	--gray: hsl(217, 12%, 63%);
+	--black-700: #262f38;
+	--black-800: #212832;
+	--black-900: hsl(216, 12%, 8%);
+}
+
+body {
+	font-family: Overpass;
+	color: #fff;
+	background-color: var(--black-900);
+}
+
+p {
+	font-size: 15px;
+	color: var(--gray);
+}
+
+.btn:active,
+.btn:hover {
+	background-color: #fff !important;
+	color: var(--black-900) !important;
+}
+
+.card__ {
+	max-width: 408px;
+	padding: 2rem;
+	background-color: var(--black-800);
+}
+
+.card__ .star {
+	background-color: var(--black-700);
+}
+
+.card__ ul button {
+	width: 52px;
+	height: 52px;
+	color: var(--gray);
+	background-color: var(--black-700);
+}
+
+.card__ button[type=submit] {
+	height: 48px;
+	background-color: var(--orange);
+	letter-spacing: 1px;
+}
+
+
