@@ -70,6 +70,12 @@ p {
 	background-color: var(--black-700);
 }
 
+.card__ ul label.active,
+.card__ ul label.active:hover {
+	background-color: var(--orange) !important;
+	color: var(--black-900);
+}
+
 .card__ button[type=submit] {
 	height: 48px;
 	background-color: var(--orange);
