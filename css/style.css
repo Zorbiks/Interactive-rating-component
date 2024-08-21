@@ -82,4 +82,11 @@ p {
 	letter-spacing: 1px;
 }
 
-
+/* Thank You Card */
+.card__ .rating-placeholder {
+	width: max-content;
+	font-size: 15px;
+	color: var(--orange);
+	background-color: var(--black-700);
+	line-height: 1;
+}
